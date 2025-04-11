@@ -9,6 +9,7 @@
 // Output: ""
 // Explanation: There is no common prefix among the input strings.
 
+let strs = ["flower","flow","flight"]
 function prefix(strs){
     if(strs.length==0) return ""
     let a=strs[0];
